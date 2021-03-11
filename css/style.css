@@ -496,6 +496,10 @@ body {
 
 @media (max-width:768px){
   
+  #firstview{
+    height: 650px;
+  }
+
   .hamburger{
     width: 40px;
     height: 40px;
@@ -534,10 +538,11 @@ body {
   }
 /* ヘッダー*/
 
-
 .catchcopy{
 width: 60%;
-top: 30%;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
   }
   
 .news {
@@ -547,6 +552,7 @@ width: 100%;
 .mission-btn{
 width: 70%;
 }
+
 /* news*/
 
 .service-img{
